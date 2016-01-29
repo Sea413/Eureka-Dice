@@ -41,7 +41,7 @@ $(document).ready(function() {
       // var player2 = Player1();
       // var d10 = Math.floor((Math.random()*6) + 1);
       newturn.dieroll();
-      $("#sth").append(newturn.totalscore);
+      $("#sth").append("<li>" + newturn.totalscore + "</li>");
       // $("#player1score").append(newturn.totalSCore)
       console.log("total" + newturn.totalscore);
 
